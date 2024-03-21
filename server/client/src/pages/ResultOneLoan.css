@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  align-self: flex-end; /* Aligns header to the right side */
+  background-color: #ccc;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Aligns arrow to the right side */
+  background-color: lightblue;
+}
+
+.arrow img {
+  width:1500px; /* Set the width of the arrow icon */
+  height: 70px; /* Set the height of the arrow icon */
+}
+
+.main-content {
+  flex-grow: 1; /* Allows the main content to grow and fill available space */
+  background-color: lightgreen;
+}
+.highlighted-text {
+  text-decoration: underline;
+  color: rgb(0, 149, 255);
+  cursor: pointer;
+}
