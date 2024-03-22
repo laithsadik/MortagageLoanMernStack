@@ -38,7 +38,7 @@ export default function SideMenu({handleCloseNav}) {
           <div className="flex flex-col gap-2 mr-8 text-slate-500">
             <div className="flex flex-row gap-2 items-center">
               <Link to={"/loan"} className="no-underline hover:underline">
-                <span onClick={handleCloseNav} className="font-bold text-slate-500">
+                <span onClick={handleCloseNav} className="font-base text-slate-500">
                   אני מעוניין לקחת הלוואה אחת
                 </span>
               </Link>
